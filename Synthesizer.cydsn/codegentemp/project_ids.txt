@@ -1,0 +1,6 @@
+C:\Users\sepp2\Desktop\Schule\DIC\4BHEL\In_Bearbeitung\PSOC\Synthie\Synthesizer.cydsn\Synthesizer.cyprj|0c577518-5031-47f3-ab67-eb1c0efeecd5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|bfa41c39-95d7-40cf-966a-5265226cf2af
+C:\Users\sepp2\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|40366c62-fcd3-4b6d-aa94-ea6a64c4cacf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|fc06fe4a-2b1e-4ec1-a0f6-37bb294d3105
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e4e6e3b4-a4eb-4216-ac9d-eaefc0be637c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0f2f8808-7541-42cd-9784-a3c6f425828f
