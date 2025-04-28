@@ -401,3 +401,70 @@ void Never_Gonna_Give(){
     
     
 }
+
+void Happy_Birthday(){
+    
+    int bpm = 102;
+    //int viertel = round(60/bpm*1000);
+    int viertel = 450;
+    int achtel = round(viertel/2);
+    int sechsentel = round(viertel/4);
+    
+    playTone(4,achtel);
+    sleep_DACs(2);
+    playTone(4,achtel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(5,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(4,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,viertel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(6,(viertel*2));
+    sleep_DACs(idle_sleep);
+    playTone(4,achtel);
+    playTone(4,achtel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(5,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(4,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,(viertel*2));
+    
+    sleep_DACs(idle_sleep);
+    playTone(9,achtel);
+    sleep_DACs(2);
+    playTone(9,achtel);
+    sleep_DACs(idle_sleep);
+    
+    
+    playTone(11,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(9,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(6,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(5,(viertel+achtel));
+    
+    sleep_DACs(idle_sleep);
+    playTone(10,achtel);
+    sleep_DACs(2);
+    playTone(10,achtel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(9,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,(viertel*2));
+    
+   }

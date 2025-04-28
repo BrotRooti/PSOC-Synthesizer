@@ -18,6 +18,6 @@
 
 void Narcotic();
 void Never_Gonna_Give();
-
+void Happy_Birthday();
 
 #endif

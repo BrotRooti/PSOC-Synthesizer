@@ -255,6 +255,7 @@
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="B1" />
       <Data key="48304e6b-6c03-4f44-be89-e4f7b2b5d21f" value="B2" />
       <Data key="b7691838-ffc4-4dbc-9821-08c680e303f6" value="LINE_IN" />
+      <Data key="c02e13bc-f644-472b-8988-378b84a8eba8" value="B3" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="LINE_OUT" />
     </Group>
   </Group>
@@ -3360,6 +3361,11 @@
     <Group key="b7691838-ffc4-4dbc-9821-08c680e303f6">
       <Group key="0">
         <Data key="Port Format" value="0,0" />
+      </Group>
+    </Group>
+    <Group key="c02e13bc-f644-472b-8988-378b84a8eba8">
+      <Group key="0">
+        <Data key="Port Format" value="0,5" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">

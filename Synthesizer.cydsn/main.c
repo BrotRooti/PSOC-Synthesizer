@@ -21,6 +21,7 @@ void play_Pice(int pice_id){
     switch (pice_id){
         case 0: Narcotic(); break;
         case 1: Never_Gonna_Give(); break;
+        case 2: Happy_Birthday(); break;
     }
 }
 
@@ -40,6 +41,7 @@ int main(void)
     {
         if (B1_Read()==0) play_Pice(0);
         else if (B2_Read()==0) play_Pice(1);
+        else if (B3_Read()==0) play_Pice(2);
         sleep_DACs(3000);
         /*
         count = count + direction;
