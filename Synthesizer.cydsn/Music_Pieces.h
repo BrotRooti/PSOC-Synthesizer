@@ -16,6 +16,8 @@
 #ifndef Music_Pieces
 #define Music_Pieces
 
-void play_Narcotic();
+void Narcotic();
+void Never_Gonna_Give();
+
 
 #endif

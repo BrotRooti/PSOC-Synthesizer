@@ -17,9 +17,8 @@
 #include "Music_Pieces.h"
 #include "Helpers.h"
 
-int idle_sleep = 10;
-void play_Narcotic(){
-    init_dacs();
+int idle_sleep = 8;
+void Narcotic(){
     
     int bpm = 102;
     //int viertel = round(60/bpm*1000);
@@ -136,7 +135,7 @@ void play_Narcotic(){
     for (int i=0;i<6;i++){
         playTone(7,achtel);
         if (i==3) sleep_DACs(idle_sleep);
-        sleep_DACs(3);
+        sleep_DACs(2);
     }
     playTone(10,achtel);
     playTone(9,achtel);
@@ -152,3 +151,253 @@ void play_Narcotic(){
    
 }
 
+void Never_Gonna_Give(){
+    
+    int bpm = 102;
+    //int viertel = round(60/bpm*1000);
+    int viertel = 450;
+    int achtel = round(viertel/2);
+    int sechsentel = round(viertel/4);
+    
+    for (int rep=0;rep<2;rep++){
+    playTone(7,viertel+achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,achtel);
+    playTone(8,viertel*2);
+    sleep_DACs(idle_sleep);
+    
+    playTone(8,viertel+achtel);
+    sleep_DACs(idle_sleep);
+    playTone(9,achtel);
+    playTone(9,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(11,sechsentel);
+    playTone(10,sechsentel);
+    playTone(9,achtel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(7,viertel+achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,achtel);
+    playTone(8,viertel*2);
+    sleep_DACs(idle_sleep);
+    
+        if (rep==0){
+            playTone(6,viertel*2);
+            sleep_DACs(achtel);
+            playTone(4,achtel);
+            sleep_DACs(idle_sleep);
+            playTone(5,sechsentel);
+            playTone(7,achtel+sechsentel);
+        }
+        
+        if (rep==1){
+            playTone(6,achtel);
+            playTone(7,achtel);
+            sleep_DACs(idle_sleep);
+            playTone(7,viertel);
+            sleep_DACs(viertel*2);
+        }
+    }
+    
+    sleep_DACs(viertel);
+    playTone(5,achtel);
+    playTone(7,achtel);
+    playTone(7,achtel);
+    sleep_DACs(2);
+    playTone(7,achtel);
+    sleep_DACs(2);
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(6,achtel);
+    playTone(6,sechsentel);
+    playTone(5,sechsentel);
+    playTone(4,achtel);
+    playTone(4,viertel*2);
+    sleep_DACs(viertel);
+    
+    sleep_DACs(achtel);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(6,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(7,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(5,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(4,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(11,achtel);
+    sleep_DACs(viertel);
+    playTone(11,achtel);
+    sleep_DACs(2);
+    playTone(9,achtel);
+    sleep_DACs(viertel*2);
+    
+    sleep_DACs(achtel);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(6,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(7,achtel);
+    playTone(5,achtel);
+    playTone(7,achtel);
+    playTone(8,achtel);
+    
+    
+    
+    sleep_DACs(achtel);
+    playTone(6,achtel);
+    playTone(5,achtel);
+    playTone(4,achtel);
+    playTone(4,achtel);
+    sleep_DACs(viertel);
+    
+    sleep_DACs(achtel);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(5,achtel);
+    sleep_DACs(2);
+    playTone(6,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(7,achtel);
+    playTone(5,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(4,viertel);
+    
+    //13
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(9,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    sleep_DACs(viertel);
+    
+    playTone(7,(viertel*2));
+    playTone(7,achtel);
+    playTone(8,achtel);
+    playTone(9,achtel);
+    playTone(7,achtel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(8,achtel);
+    sleep_DACs(2);
+    playTone(9,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    playTone(4,viertel);
+    
+    sleep_DACs(viertel*2);
+    playTone(5,achtel);
+    playTone(6,achtel);
+    playTone(7,achtel);
+    playTone(5,achtel);
+    
+    sleep_DACs(achtel);
+    playTone(8,achtel);
+    playTone(9,achtel);
+    playTone(8,achtel);
+    playTone(8,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(9,(achtel+sechsentel));
+    playTone(9,sechsentel);
+    playTone(9,achtel);
+    playTone(8,achtel);
+    sleep_DACs(viertel);
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(8,(achtel+sechsentel));
+    playTone(8,sechsentel);
+    playTone(8,achtel);
+    playTone(7,achtel);
+    playTone(7,sechsentel);
+    playTone(6,sechsentel);
+    playTone(5,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(7,viertel);
+    playTone(8,achtel);
+    playTone(6,achtel);
+    playTone(6,sechsentel);
+    playTone(5,sechsentel);
+    playTone(4,achtel);
+    playTone(4,achtel);
+    playTone(4,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    playTone(7,(viertel*2));
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(9,(achtel+sechsentel));
+    playTone(9,sechsentel);
+    playTone(9,achtel);
+    playTone(8,achtel);
+    sleep_DACs(viertel);
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(11,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(6,achtel);
+    playTone(7,achtel);
+    playTone(7,sechsentel);
+    playTone(6,sechsentel);
+    playTone(5,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(4,sechsentel);
+    playTone(5,sechsentel);
+    playTone(7,sechsentel);
+    playTone(5,sechsentel);
+    sleep_DACs(idle_sleep);
+    
+    playTone(7,viertel);
+    playTone(8,achtel);
+    playTone(6,achtel);
+    playTone(6,sechsentel);
+    playTone(5,sechsentel);
+    playTone(4,achtel);
+    playTone(4,achtel);
+    sleep_DACs(2);
+    playTone(4,achtel);
+    sleep_DACs(idle_sleep);
+    playTone(8,viertel);
+    sleep_DACs(idle_sleep);
+    playTone(7,(viertel*2));
+    sleep_DACs(viertel);
+    
+    
+}

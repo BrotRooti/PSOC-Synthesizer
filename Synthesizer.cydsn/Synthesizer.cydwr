@@ -252,7 +252,8 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="7c4cc31d-39a9-4740-9ac6-fbe89878d557" value="Test_Output" />
-      <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="SEL" />
+      <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="B1" />
+      <Data key="48304e6b-6c03-4f44-be89-e4f7b2b5d21f" value="B2" />
       <Data key="b7691838-ffc4-4dbc-9821-08c680e303f6" value="LINE_IN" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="LINE_OUT" />
     </Group>
@@ -3349,6 +3350,11 @@
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="0,7" />
+      </Group>
+    </Group>
+    <Group key="48304e6b-6c03-4f44-be89-e4f7b2b5d21f">
+      <Group key="0">
+        <Data key="Port Format" value="0,6" />
       </Group>
     </Group>
     <Group key="b7691838-ffc4-4dbc-9821-08c680e303f6">

@@ -26,6 +26,4 @@ void sleep_DACs(int time);
 
 void fade_out();
 
-void init_dacs();
-
 #endif

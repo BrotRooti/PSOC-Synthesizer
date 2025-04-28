@@ -43,10 +43,3 @@ void fade_out(){
     WaveDAC8_1_
 }
 */
-
-void init_dacs(){
-    WaveDAC8_1_Init();
-    WaveDAC8_2_Init();
-    WaveDAC8_3_Init();
-    WaveDAC8_4_Init();
-}
